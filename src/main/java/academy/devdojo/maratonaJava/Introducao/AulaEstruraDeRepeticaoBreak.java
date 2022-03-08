@@ -23,7 +23,7 @@ public class AulaEstruraDeRepeticaoBreak {
         for(int parcela= 1;parcela <= valorCarro; parcela++){
            double valorParcela = valorCarro / parcela;
             if(valorParcela < 1000){
-                break;
+                break;// encerra o laço quando acha a condição
             }
                 System.out.println("Parcela "+ parcela + "R$ "+valorParcela);
         }
@@ -31,7 +31,7 @@ public class AulaEstruraDeRepeticaoBreak {
         for(int parcelaa= (int) valorCarro ;parcelaa >=1; parcelaa--){
             double valorParcelaa = valorCarro/parcelaa;
                 if(valorParcelaa < 1000){
-                       continue;
+                       continue;// vai continuar a partir da parcela menor de mil
                  }
                 System.out.println("Parcela "+parcelaa +"° " +" R$ "+valorParcelaa);
                 }      
