@@ -18,17 +18,20 @@ public class CarroTeste {
         carro.nome = "Corolla";
         carro.ano = 2022;
         carro.modelo ="Toyota Corolla GLi 2.0 Flex";
+        
+        carro2.nome = "Porsche";
+        carro2.ano = 2021;
+        carro2.modelo ="sport";
+        
+        carro = carro2;
     
         System.out.println("Meu carro é o "+carro.nome+", ele é do modelo "+carro.modelo+" do ano de "+carro.ano);
        
         System.out.println("///////////////////////////////////////");
       
-        carro2.nome = "Porsche";
-        carro2.ano = 2021;
-        carro2.modelo ="sport";
-        
+      
         System.out.println("O meu carro é um "+carro2.nome+", do ano de "+carro2.ano+" que é um modelo "+carro2.modelo);
-    
+         
     }
     
 }
