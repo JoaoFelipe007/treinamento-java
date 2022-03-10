@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package academy.devdojo.maratonaJava.IntroducaoMetodo.Dominio;
+package academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio;
 
 /**
  *
@@ -32,5 +32,15 @@ public class Calculadora {
                 return 0;
             }
             return  num/num2;
+        }
+        
+        public void imprimeDoisNumeros(int num, int num2){
+        if(num2 == 0){
+            System.out.println("é impossivel a fazer a divisão");
+            return;
+        }
+            System.out.println("O resultado da divisão é "+(num/num2));
+               
+        
         }
 }

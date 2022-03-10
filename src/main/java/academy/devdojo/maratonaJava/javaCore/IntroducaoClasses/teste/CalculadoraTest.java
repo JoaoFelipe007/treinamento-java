@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package academy.devdojo.maratonaJava.IntroducaoMetodo;
+package academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.teste;
 
-import academy.devdojo.maratonaJava.IntroducaoMetodo.Dominio.Calculadora;
+import academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio.Calculadora;
 
 /**
  *
@@ -20,12 +20,13 @@ public class CalculadoraTest {
         calculadora.numero2Subtracao = 322;
             
         //Metodos
-        double result =  calculadora.divisaoDoiNumeros(3, 0);// Metodo com retorno
-        calculadora.multiplicacaoDoisNumeros(15, 40);// metodo com parametro
-        calculadora.somaDoisNumeros();
-        calculadora.subtracaoDoisNumeros();
+        calculadora.imprimeDoisNumeros(20, 0);
+        //double result =  calculadora.divisaoDoiNumeros(3, 0);// Metodo com retorno
+        //calculadora.multiplicacaoDoisNumeros(15, 40);// metodo com parametro
+        //calculadora.somaDoisNumeros();
+        //calculadora.subtracaoDoisNumeros();
         
         //Retorno do metodo divisão
-         System.out.println("O resultado da Divisão é: "+result);
+        // System.out.println("O resultado da Divisão é: "+result);
     }
 }
