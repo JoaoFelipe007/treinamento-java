@@ -40,7 +40,23 @@ public class Calculadora {
             return;
         }
             System.out.println("O resultado da divisão é "+(num/num2));
-               
-        
         }
+        
+        public void altereDoisValores(int num, int num2){
+            num = 88;
+            num2 = 45;
+            System.out.println("Dentreo do Metodo");
+            System.out.println("Num "+ num);
+            System.out.println("Num2 "+ num2);
+        }
+        public void incrementa (int num) {
+            num = 15;
+            System.out.println("Num incrementado: "+num);
+                 
+        }
+        
+       public void copia(int numero){
+           System.out.println("c do Metodo= "+(numero+2));
+       }
+        
 }
