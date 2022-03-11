@@ -59,4 +59,28 @@ public class Calculadora {
            System.out.println("c do Metodo= "+(numero+2));
        }
         
+       public void somaArray(int[] numero){
+        int soma = 0;
+         for(int num : numero){
+             soma += num;
+         }
+           System.out.println(soma);
+       }
+
+       public void somaVarArgs (int... numero){
+           int somaa = 0;
+           
+           for (int num : numero){
+               somaa += num;
+           }
+           System.out.println(somaa);
+                
+       }
+       public int multiplicarVaarargs(int multiplicador, int... valores){
+             int soma =0;
+            for(int valor : valores){
+                soma += valor;           
+            } 
+            return soma * multiplicador;
+        }
 }
