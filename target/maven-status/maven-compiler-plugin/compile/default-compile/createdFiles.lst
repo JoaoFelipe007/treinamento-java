@@ -1,8 +1,10 @@
 academy\devdojo\maratonaJava\Introducao\AulaEstruturasDeRepeticao01.class
 academy\devdojo\maratonaJava\Introducao\ExercicioTipoPrimitivo.class
+academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\EstudanteTest02.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\ProfessorTeste.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Estudante.class
 academy\devdojo\maratonaJava\Introducao\Aula04Operadores.class
+academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\impressoraEstudante.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Professor.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\CalculadoraTest.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Calculadora.class
@@ -10,6 +12,7 @@ academy\devdojo\maratonaJava\Introducao\Aula01OlaDevDojo.class
 academy\devdojo\maratonaJava\Introducao\AulaArrays02.class
 academy\devdojo\maratonaJava\Introducao\AulaArrays01.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\CalculadoraTeste02.class
+academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\EstudanteTest03.class
 academy\devdojo\maratonaJava\Introducao\AulaArrayMultidimenssionais.class
 academy\devdojo\maratonaJava\Introducao\AulaEstruraDeRepeticaoBreak.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\CarroAtividade.class
