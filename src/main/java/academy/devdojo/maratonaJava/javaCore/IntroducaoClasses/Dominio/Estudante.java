@@ -9,7 +9,7 @@ package academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio;
  * @author Gestão Tech
  */
 public class Estudante {
-    public String nome ="João Felipe";
+    public String nome;
     public int idade;
     public char sexo;
     

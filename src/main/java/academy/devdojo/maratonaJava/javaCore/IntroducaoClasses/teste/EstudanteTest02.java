@@ -5,13 +5,39 @@
 package academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.teste;
 
 import academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio.Estudante;
+import academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio.impressoraEstudante;
 
 /**
  *
  * @author Gestão Tech
  */
 public class EstudanteTest02 {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Estudante estudante = new Estudante();
-    }
+        Estudante estudante2 = new Estudante();
+        impressoraEstudante impressora = new impressoraEstudante();
+        
+        estudante.nome = "João Felipe";
+        estudante.idade = 19;
+        estudante.sexo = 'M';
+        
+        estudante2.nome = "Raianne";
+        estudante2.idade = 17;
+        estudante2.sexo = 'F';
+        
+        impressora.imprimir(estudante);
+        impressora.imprimir(estudante2);
+        
+       
+       //System.out.println(estudante.nome);
+       //System.out.println(estudante.idade);
+      // System.out.println(estudante.sexo);
+       
+      // System.out.println("--------------------------------");
+    
+       //System.out.println(estudante2.nome);
+       //System.out.println(estudante2.idade);
+       //System.out.println(estudante2.sexo);
+       
+   }
 }

@@ -15,7 +15,7 @@ public class CalculadoraTeste02 {
         Calculadora calculadora = new Calculadora();
          int a =1;
          int b = 2;
-         calculadora.altereDoisValores(12, 13);
+         calculadora.altereDoisValores(a, b);
          System.out.println("Fora do metodo");
          System.out.println("a= "+a);
          System.out.println("b= "+b);
