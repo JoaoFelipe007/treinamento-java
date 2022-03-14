@@ -13,14 +13,12 @@ import academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio.Funcionar
 public class FuncionarioTest {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nomeFuncionario ="João Felipe de Paula Silva";
-        funcionario.idade =19;
-        funcionario.funcao ="programador";
-        funcionario.anoEntrada =2019;
-        funcionario.anoAtual =2022;
-        funcionario.salarios = new double[]{2500, 3250.87, 600};
-       funcionario.imprimirDados();
+        funcionario.setNomeFuncionario("João Felipe");
+        funcionario.setIdade(19);
+        funcionario.setSalarios(new double[]{2500, 3250.87, 600});
+//         funcionario.imprimirDados();
         
+        System.out.println(funcionario.getMedia());
     }
     
 }
