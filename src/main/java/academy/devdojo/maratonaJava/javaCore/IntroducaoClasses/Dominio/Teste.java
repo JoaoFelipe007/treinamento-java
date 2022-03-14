@@ -9,12 +9,16 @@ package academy.devdojo.maratonaJava.javaCore.IntroducaoClasses.Dominio;
  * @author Gestão Tech
  */
 public class Teste {
-    public String[] imprimeNomes(String...nomes){
-       
+    public int imprimeNomes(String...nomes){
+      String padrao = "Gustavo";
+        
+        int qtd = 0;
         for(String nome: nomes){
-            System.out.println(nome);
+            if(nome.equals(padrao)){
+                qtd++;
+            }
        }
        
-        return nomes;
+        return qtd;
     }
 }
