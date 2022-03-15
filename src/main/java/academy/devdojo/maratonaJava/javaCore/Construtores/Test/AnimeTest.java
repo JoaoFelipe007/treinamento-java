@@ -13,10 +13,13 @@ import academy.devdojo.maratonaJava.javaCore.Construtores.Dominio.Anime;
 public class AnimeTest {
      public static void main(String[] args) {
         Anime anime = new Anime("TV", 545, "Narutin",2005);
-        Anime anime2 = new Anime();
-        anime.imprimeAnime();
+        Anime anime2 = new Anime("TV", 545, "Narutin",2005,"Ação");
+        Anime anime3 = new Anime();
+        anime.imprimeAnime();      
         System.out.println("*/*/*/*/*/*/*/*/*/*/");
         anime2.imprimeAnime();
+        System.out.println("*/*/*/*/*/*/*/*/*/*/");
+        anime3.imprimeAnime();
    
 }
 }
