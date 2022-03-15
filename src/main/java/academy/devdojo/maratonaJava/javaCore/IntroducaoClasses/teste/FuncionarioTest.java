@@ -16,9 +16,9 @@ public class FuncionarioTest {
         funcionario.setNomeFuncionario("João Felipe");
         funcionario.setIdade(19);
         funcionario.setSalarios(new double[]{2500, 3250.87, 600});
-//         funcionario.imprimirDados();
+         funcionario.imprimirDados();
         
-        System.out.println(funcionario.getMedia());
+        System.out.println("Media: "+funcionario.getMedia());
     }
     
 }
