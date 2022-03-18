@@ -23,7 +23,7 @@ public class Time {
 
 
     public void imprimeTime(){
-        System.out.println("Nome do time: "+this.time);
+        System.out.println("Nome do time: "+this.time); 
         System.out.println("Lista de Jogadores vinculado ao time são: ");
         if(jogadores == null) return;
         for(Jogador jogador : jogadores){

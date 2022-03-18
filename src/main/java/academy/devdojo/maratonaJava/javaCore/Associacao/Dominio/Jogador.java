@@ -23,6 +23,7 @@ public class Jogador {
         System.out.println(this.nome);
         if(time !=null){
             System.out.println(time.getNomeTime());
+            System.out.println(" ");
         }
     
     }

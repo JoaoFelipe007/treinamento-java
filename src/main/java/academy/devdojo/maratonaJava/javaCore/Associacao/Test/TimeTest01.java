@@ -22,16 +22,16 @@ public class TimeTest01 {
         Jogador jogador3 = new Jogador("Fred");
         Jogador jogador4 = new Jogador("Alan Kardeck");
         Jogador jogador5 = new Jogador("Gilberto");
-       Jogador[] jogadores ={jogador1, jogador2, jogador3, jogador4, jogador5};
-       Time time = new Time("VASCO", jogadores); 
-       
-       jogador1.setTime(time);
-       jogador2.setTime(time);
+        Jogador[] jogadores = {jogador1, jogador2, jogador3, jogador4, jogador5};
+        Time time = new Time("VASCO", jogadores);
+
+        jogador1.setTime(time);
+        jogador2.setTime(time);
         System.out.println("---Classe jogadores---");
         jogador2.imprimeJogador();
         jogador1.imprimeJogador();
         System.out.println("---Classe Time---");
-       time.imprimeTime();
+        time.imprimeTime();
     }
-    
+
 }
