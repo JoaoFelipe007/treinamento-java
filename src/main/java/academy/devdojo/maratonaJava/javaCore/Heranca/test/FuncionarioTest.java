@@ -24,8 +24,7 @@ public class FuncionarioTest {
     pessoa.setEndereco(endereco);
     pessoa.imprime();
     
-        System.out.println("+/+/+/+/+/+/+/+/+/+/+/+/++/");
-        
+        System.out.println(".+.+.+.+.++.+.+.+.+.+.+.+.+..+");
     Funcionario funcionario = new Funcionario();
     funcionario.setNome("João Felipe");
     funcionario.setCpf("xxx.xxx.xxx-xx");
