@@ -29,7 +29,7 @@ public class FuncionarioTest {
     funcionario.setNome("João Felipe");
     funcionario.setCpf("xxx.xxx.xxx-xx");
     funcionario.setIdade(23);
-    funcionario.setSalario(1500.49);
+    funcionario.setSalario(1200.56);
     funcionario.setEndereco(endereco);
     funcionario.imprime();
     }
