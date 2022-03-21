@@ -24,7 +24,7 @@ public class FuncionarioTest {
     pessoa.setEndereco(endereco);
     pessoa.imprime();
     
-        System.out.println(".+.+.+.+.++.+.+.+.+.+.+.+.+..+");
+        System.out.println(".+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+");
     Funcionario funcionario = new Funcionario();
     funcionario.setNome("João Felipe");
     funcionario.setCpf("xxx.xxx.xxx-xx");
@@ -32,5 +32,9 @@ public class FuncionarioTest {
     funcionario.setSalario(1200.56);
     funcionario.setEndereco(endereco);
     funcionario.imprime();
+    
+        System.out.println("+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+");
+    
+    funcionario.nomeFunc();
     }
 }

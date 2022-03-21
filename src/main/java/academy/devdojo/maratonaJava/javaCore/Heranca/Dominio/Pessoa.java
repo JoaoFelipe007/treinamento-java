@@ -9,10 +9,10 @@ package academy.devdojo.maratonaJava.javaCore.Heranca.Dominio;
  * @author Gestão Tech
  */
 public class Pessoa {
- private String nome;
- private String cpf;
- private int idade;
- private Endereco endereco;
+ protected String nome;
+ protected String cpf;
+ protected int idade;
+ protected Endereco endereco;
 
 public void imprime(){
     System.out.println("Nome: "+this.nome);

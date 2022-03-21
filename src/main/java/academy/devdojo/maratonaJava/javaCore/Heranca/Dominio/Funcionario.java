@@ -19,7 +19,10 @@ public class Funcionario extends Pessoa{
     }
     } 
     
+    public void nomeFunc(){
+        System.out.println("Eu "+this.nome+" recebi o salario de "+this.salario+" Reais");
     
+    }
     public double getSalario() {
         return salario;
     }
