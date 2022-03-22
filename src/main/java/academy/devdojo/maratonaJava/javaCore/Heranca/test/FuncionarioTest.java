@@ -17,7 +17,7 @@ public class FuncionarioTest {
     Endereco endereco = new Endereco();
     endereco. setEndereco("Rua Alez Vasconcelo");
     endereco.setCep("15600-00");
-    Pessoa pessoa = new Pessoa();
+    Pessoa pessoa = new Pessoa("Paulo André");
     pessoa.setNome("José Bonifácio");
     pessoa.setIdade(45);
     pessoa.setCpf("000.000.000-00");
@@ -25,7 +25,7 @@ public class FuncionarioTest {
     pessoa.imprime();
     
         System.out.println(".+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+");
-    Funcionario funcionario = new Funcionario();
+    Funcionario funcionario = new Funcionario("Joselito Bruno");
     funcionario.setNome("João Felipe");
     funcionario.setCpf("xxx.xxx.xxx-xx");
     funcionario.setIdade(23);
