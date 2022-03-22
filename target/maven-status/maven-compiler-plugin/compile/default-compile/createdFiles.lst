@@ -2,11 +2,13 @@ academy\devdojo\maratonaJava\Introducao\AulaEstruturasDeRepeticao01.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\EstudanteTest02.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Estudante.class
 academy\devdojo\maratonaJava\javaCore\Heranca\Dominio\Pessoa.class
+academy\devdojo\maratonaJava\javaCore\ModificadorFinal\Test\CarroTest01.class
 academy\devdojo\maratonaJava\javaCore\Associacao\Atividade\Seminario.class
 academy\devdojo\maratonaJava\javaCore\BlocosInicializacao\Dominio\Anime.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Calculadora.class
 academy\devdojo\maratonaJava\Introducao\Aula01OlaDevDojo.class
 academy\devdojo\maratonaJava\Introducao\AulaArrays02.class
+academy\devdojo\maratonaJava\javaCore\sobreEscrita\Dominio\Anime.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\CarroTeste.class
 academy\devdojo\maratonaJava\Introducao\AulaArrayMultiDimenssionais02.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\EstudanteTeste.class
@@ -15,6 +17,7 @@ academy\devdojo\maratonaJava\javaCore\modificadorStatic\Test\AnimeTest01.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Pessoa.class
 academy\devdojo\maratonaJava\javaCore\Heranca\test\HerançaTest01.class
 academy\devdojo\maratonaJava\javaCore\Associacao\Atividade\Professor.class
+academy\devdojo\maratonaJava\javaCore\sobreEscrita\Test\sobreEscritaTest.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\Dominio\Funcionario.class
 academy\devdojo\maratonaJava\javaCore\Construtores\Dominio\Anime.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\CalculadoraTest04.class
@@ -27,6 +30,7 @@ academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\PessoaTest01.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\testeTeste.class
 academy\devdojo\maratonaJava\javaCore\Associacao\Test\TimeTest01.class
 academy\devdojo\maratonaJava\javaCore\Associacao\Dominio\Time.class
+academy\devdojo\maratonaJava\javaCore\ModificadorFinal\Dominio\Carro.class
 academy\devdojo\maratonaJava\javaCore\Associacao\Test\LeitutadeDadosTest01.class
 academy\devdojo\maratonaJava\Introducao\ExercicioTipoPrimitivo.class
 academy\devdojo\maratonaJava\javaCore\IntroducaoClasses\teste\ProfessorTeste.class
