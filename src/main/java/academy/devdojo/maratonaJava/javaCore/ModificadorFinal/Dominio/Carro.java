@@ -40,7 +40,7 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Nome comprador " + COMPRADOR;
+        return "Nome comprador "+COMPRADOR.toString();
     }
 
     
