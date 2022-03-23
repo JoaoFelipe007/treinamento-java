@@ -17,7 +17,7 @@ public class TipoPessoa {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      Cliente cliente = new Cliente("João Felipe",19,TipoCliente.Pessoa_Fisica);
+      Cliente cliente = new Cliente("João Felipe",19,TipoCliente.PESSOA_FISICA);
         cliente.imprime();
     }
     

@@ -9,6 +9,15 @@ package academy.devdojo.maratonaJava.javaCore.Enumeracao.Dominio;
  * @author Gestão Tech
  */
 public enum TipoCliente {
-    Pessoa_Fisica,
-    Pessoa_Juridica
+    PESSOA_FISICA(1, "Pessoa Fisica"),
+    PESSOA_JURIDICA(2, "Pessoa Juiridica");
+
+    public final int Valor;
+    public final String Descricao;
+
+    private TipoCliente(int valor, String descricao) {
+        this.Descricao = descricao;
+        this.Valor = valor;
+    }
+
 }
