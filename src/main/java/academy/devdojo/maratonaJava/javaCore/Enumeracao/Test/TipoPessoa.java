@@ -19,10 +19,15 @@ public class TipoPessoa {
      */
     public static void main(String[] args) {
         TipoPagamento TipoPagamento = null;
-      Cliente cliente = new Cliente("João Felipe",19,TipoCliente.PESSOA_FISICA,TipoPagamento.Debito);
-        cliente.imprime();
-        System.out.println(TipoPagamento.Debito.CalcularDesconto(250));
-        System.out.println(TipoPagamento.Credito.CalcularDesconto(250));
+      Cliente cliente = new Cliente("João Felipe",19,TipoCliente.PESSOA_JURIDICA,TipoPagamento.Credito);
+      Cliente cliente2 = new Cliente("Felipe",20,TipoCliente.PESSOA_JURIDICA,TipoPagamento.Debito); 
+      cliente.imprime();
+      cliente2.imprime();
+        System.out.println("Total em desconto em reais: "+TipoPagamento.Debito.CalcularDesconto(250));
+        System.out.println("Total em desconto em reais: "+TipoPagamento.Credito.CalcularDesconto(250));
+        
+        TipoCliente tipoCliente = TipoCliente.tipoClientePorRealtorio("Pessoa Juridica");
+        System.out.println(tipoCliente);
     }
     
 }

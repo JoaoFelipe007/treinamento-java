@@ -31,8 +31,8 @@ public class Cliente {
     public void imprime() {
         System.out.println("Nome: " + this.nome);
         System.out.println("idade: " + this.idade);
-        System.out.println("tipo de pessoa: " + this.tipoCliente.Descricao);
-        System.out.println("tipo de operação: " + this.tipoCliente.Valor);
+        System.out.println("tipo de pessoa: " + this.tipoCliente.getDescricao());
+        System.out.println("tipo de operação: " + this.tipoCliente.getValor());
         System.out.println("forma de pagamento: " + this.tipoPagamento);
     }
 
