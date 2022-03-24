@@ -5,6 +5,7 @@
 package academy.devdojo.maratonaJava.javaCore.Interface.Test;
 
 import academy.devdojo.maratonaJava.javaCore.Interface.Dominio.DataBaseLoader;
+import academy.devdojo.maratonaJava.javaCore.Interface.Dominio.DataLoader;
 import academy.devdojo.maratonaJava.javaCore.Interface.Dominio.FilderDataLoader;
 
 /**
@@ -28,7 +29,8 @@ public class InterfaceTest01 {
         dataBase.permissao();
         file.permissao();
      
-
+        DataLoader.retrive();
+        dataBase.retrive();
     }
 
 }

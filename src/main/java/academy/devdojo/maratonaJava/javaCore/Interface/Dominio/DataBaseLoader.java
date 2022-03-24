@@ -18,4 +18,8 @@ public class DataBaseLoader implements DataLoader,DataRemove{
     public void remove(){
         System.out.println("Removendo dados do Banco de Dados");
     }
+    
+    public void retrive(){
+        System.out.println("Dentro da Classe DataBaseLoader");
+    }
 }
