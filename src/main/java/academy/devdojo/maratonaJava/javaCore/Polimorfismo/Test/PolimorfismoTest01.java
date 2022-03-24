@@ -5,6 +5,7 @@
 package academy.devdojo.maratonaJava.javaCore.Polimorfismo.Test;
 
 import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Computador;
+import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.TV;
 import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Tomate;
 import academy.devdojo.maratonaJava.javaCore.Polimorfismo.servico.CalcularImposto;
 
@@ -15,12 +16,14 @@ import academy.devdojo.maratonaJava.javaCore.Polimorfismo.servico.CalcularImpost
 public class PolimorfismoTest01 {
 
     public static void main(String[] args) {
-            Computador computador = new Computador("Notebook Leneovo i3",3000.00);
-            Tomate tomate = new Tomate("Tomate Americano", 12.50);
-    
-            CalcularImposto.calcularImpostoComputador(computador);
-            System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-            CalcularImposto.calcularImpostoTomate(tomate);
+        Computador computador = new Computador("Notebook Leneovo i3", 3000.00);
+        Tomate tomate = new Tomate("Tomate Americano", 12.50);
+        TV tv = new TV("Sanssung 50\"",5000);
+        CalcularImposto.calcularImposto(computador);
+        System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+        CalcularImposto.calcularImposto(tomate);
+        System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+        CalcularImposto.calcularImposto(tv);
     }
-    
+
 }

@@ -5,6 +5,7 @@
 package academy.devdojo.maratonaJava.javaCore.Polimorfismo.servico;
 
 import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Computador;
+import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Produto;
 import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Tomate;
 
 /**
@@ -12,19 +13,12 @@ import academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio.Tomate;
  * @author Gestão Tech
  */
 public class CalcularImposto {
-    public static void calcularImpostoComputador(Computador computador){
-        System.out.println("Dados da Compra do Computador");
-         double imposto = computador.calcularImposto();
-         System.out.println("Tipo do Computador: "+computador.getNome());
-         System.out.println("Preço do Computador: "+computador.getPreco());
-         System.out.println("Valor do imposto: "+imposto);
-    }
-    
-    public static void calcularImpostoTomate(Tomate tomate){
+   
+    public static void calcularImposto(Produto produto){
         System.out.println("Dados da compra do tomate");
-        double imposto = tomate.calcularImposto();
-        System.out.println("Tipo do Tomate: "+tomate.getNome());
-        System.out.println("Preço total do tomate: "+tomate.getPreco());
+        double imposto = produto.calcularImposto();
+        System.out.println("Tipo do Tomate: "+produto.getNome());
+        System.out.println("Preço total do tomate: "+produto.getPreco());
         System.out.println("Valor do Imposto: "+imposto);
     }
 }
