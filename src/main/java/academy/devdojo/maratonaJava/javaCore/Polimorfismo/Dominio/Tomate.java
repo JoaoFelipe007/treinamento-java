@@ -10,6 +10,7 @@ package academy.devdojo.maratonaJava.javaCore.Polimorfismo.Dominio;
  */
 public class Tomate extends Produto {
 
+     private String dataValiadade;
     public static double valorImposto = 0.30;
 
     public Tomate(String nome, double preco) {
@@ -21,4 +22,14 @@ public class Tomate extends Produto {
         System.out.println("Calculando o valor do imposto do pc");
         return this.preco * valorImposto;
     }
+
+    public String getDataValiadade() {
+        return dataValiadade;
+    }
+
+    public void setDataValiadade(String dataValiadade) {
+        this.dataValiadade = dataValiadade;
+    }
+    
+    
 }
