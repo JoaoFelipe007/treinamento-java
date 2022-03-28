@@ -23,7 +23,7 @@ public class RunTimeExceptionTest03 {
         }catch (IllegalArgumentException e) {
             System.out.println("Dentro do IllegalArgumentException ");
         }catch (RuntimeException e) {
-            System.out.println("Dentro do RuntimeException ");
+            System.out.println("Dentro do RuntimeException   ");
         }
 
     }
