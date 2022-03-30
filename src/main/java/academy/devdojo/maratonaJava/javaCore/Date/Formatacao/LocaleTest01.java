@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package academy.devdojo.maratonaJava.javaCore.Date.Test;
+package academy.devdojo.maratonaJava.javaCore.Date.Formatacao;
 
 import java.text.DateFormat;
 import java.util.Calendar;
