@@ -17,7 +17,7 @@ public class LocalDateTest01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        LocalDate date =LocalDate.of(2003, Month.FEBRUARY,24);
+        LocalDate date =LocalDate.of(2103, Month.FEBRUARY,24);
         LocalDate now = LocalDate.now();
         System.out.println(date.getYear());// MOSTRA O ANO CORRESPONDENTE NO QUE COLOCOU NO CONSTRUTOR
         System.out.println(date.getMonth());//MOSTRA MÊS CORRESPONDENTE NO QUE COLOCOU NO CONSTRUTOR
